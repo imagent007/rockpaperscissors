@@ -1,3 +1,6 @@
+body {
+  background-color: gray;
+}
 .row{
   text-align:center;
   
@@ -6,4 +9,36 @@
   display:flex;
   justify-content:space-between;
   
+}
+#shoot {
+  color: white;
+  background-color: black;
+  border: solid black;
+}
+#input {
+  color: white;
+  background-color: black;
+  border: solid black;
+}
+h1 {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+  font-size: 60px;
+}
+p {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+}
+h3 {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+}
+h4 {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
 }
