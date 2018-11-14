@@ -1,6 +1,4 @@
-body {
-  background-color: gray;
-}
+
 .row{
   text-align:center;
   
@@ -13,32 +11,86 @@ body {
 #shoot {
   color: white;
   background-color: black;
+  border-radius: 20px;
   border: solid black;
+  width: 100px
 }
+#shoot:hover {
+  background-color: white;
+  border: solid 2px white;
+  color: black;
+} 
 #input {
   color: white;
   background-color: black;
+  border-radius: 20px;
+  text-align: center;
   border: solid black;
+  width: 200px
 }
+#input:hover {
+  background-color: white;
+  border: solid 2px white;
+  color: black;
+} 
 h1 {
   font-family: 'Cabin Sketch', cursive;
   color: white;
   font-size: 60px;
 }
+h1:hover {
+  color: black;
+} 
 p {
   font-family: 'Cabin Sketch', cursive;
   color: white;
   text-align: center;
 }
+p:hover {
+  color: black;
+} 
 h2 {
   font-family: 'Cabin Sketch', cursive;
   color: white;
 }
+h2:hover {
+  color: black;
+} 
 h3 {
   font-family: 'Cabin Sketch', cursive;
   color: white;
 }
+h3:hover {
+  color: black;
+} 
 h4 {
   font-family: 'Cabin Sketch', cursive;
   color: white;
+}
+h4:hover {
+  color: black;
+} 
+.rps {
+  width: 500px;
+  border-radius: 100px
+}
+.rps:hover {
+  border: solid 10px black;
+} 
+html,
+body {
+  height: 100%;
+  width:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 3s infinite;
+}
+
+
+@keyframes myanimation {
+  0% {background-color: orange;}
+  33%{background-color: red}
+  66%{background-color:green;}
+  100% {background-color: orange;}
+
 }

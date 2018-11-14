@@ -22,18 +22,18 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [x] Customize your HTML with CSS
 
 #### Wrap
-- [ ] Push your changes!
-- [ ] Save and submit your website using the link on the Daily Session Document.
+- [x] Push your changes!
+- [x] Save and submit your website using the link on the Daily Session Document.
 
 ## Day 2
 
 ### Javascript 
 
-- [ ] Outside of your click handler, declare 3 variables (userChoice, computerChoice and winner) and assign them values of empty strings
-- [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
+- [x] Outside of your click handler, declare 3 variables (userChoice, computerChoice and winner) and assign them values of empty strings
+- [x] Outside of your click handler, declare a randomNumber variable and set it equal to 0
 - [ ] In your click handler, generate a random number and assign it to the randomNumber variable
-- [ ] In your click handler, store the input value in the userChoice variable	
-- [ ] In your click handler, display userChoice to the screen
+- [x] In your click handler, store the input value in the userChoice variable	
+- [x] In your click handler, display userChoice to the screen
 #### Wrap
 - [ ] Push your changes!
 
