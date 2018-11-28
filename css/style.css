@@ -75,7 +75,7 @@ h4:hover {
   border-radius: 100px
 }
 .rps:hover {
-  border: solid 10px black;
+  border: double 10px black;
 } 
 html,
 body {
@@ -83,14 +83,18 @@ body {
   width:100%;
   color:black;
   font-weight:bold;
-  animation: myanimation 3s infinite;
+  animation: myanimation 5s infinite;
 }
 
 
-@keyframes myanimation {
+/*@keyframes myanimation {
   0% {background-color: orange;}
   33%{background-color: red}
   66%{background-color:green;}
   100% {background-color: orange;}
 
 }
+
+
+
+*/

@@ -12,12 +12,18 @@ var winner;
 // DOCUMENT READY FUNCTION BELOW
 $("button").click(function() {
     $("#userChoice").text($("#input").val());
-});
-
+    
     if (computerChoice <= .3) {
-        $("").text();
-    } else if (computerChoice ) {
-        $("").text();
+        $("#computerChoice").text("rock");
+    } else if (computerChoice <=.6) {
+        $("#computerChoice").text("paper");
     } else {
-        
+        $("#computerChoice").text("scissors");
     }
+    
+    if (userChoice=== "rock" && computerChoice=== "rock"){
+        console.log("tie")
+    } 
+    
+
+});
